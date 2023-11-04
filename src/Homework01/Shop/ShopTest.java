@@ -17,14 +17,12 @@ public class ShopTest {
         shop = new Shop();
     }
 
+
 //   1. Напишите тесты, чтобы проверить, что магазин хранит верный список продуктов (правильное количество продуктов, верное содержимое корзины).
     @Test
     public void testShopCorrectProducts() {
-//        Shop shop = new Shop();
-
         Product product1 = new Product("Product A", 100);
         Product product2 = new Product("Product B", 50);
-
         shop.setProducts(Arrays.asList(product1, product2));
 
         assertThat(shop.getProducts()).hasSize(2)
@@ -52,7 +50,6 @@ public class ShopTest {
 //   3. Напишите тесты для проверки корректности работы метода sortProductsByPrice (проверьте правильность сортировки).
     @Test
     public void testSortProductsByPrice() {
-//        Shop shop = new Shop();
         shop.setProducts(Arrays.asList(
                 new Product("Product A", 100),
                 new Product("Product B", 50),
