@@ -32,10 +32,12 @@ public class ShopTest {
 
 //   2. Напишите тесты для проверки корректности работы метода getMostExpensiveProduct.
     @Test
-    public void testGetMostExpensiveProduct() {
-        // сразу проверяем исключение на пустом списке
+    public void testGetMostExpensiveProductForEmptyList() {
         assertThatThrownBy(() -> shop.getMostExpensiveProduct()).isInstanceOf(NoSuchElementException.class);
+    }
 
+    @Test
+    public void testGetMostExpensiveProduct() {
         List<Product> products = Arrays.asList(
                 new Product("Product A", 50),
                 new Product("Product B", 200),
