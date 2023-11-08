@@ -1,4 +1,4 @@
-package Homework01.Calculator;
+package homework01.calculator;
 
 public class Calculator {
 
@@ -12,5 +12,9 @@ public class Calculator {
         }
         double discount = purchaseAmount * discountAmount / 100;
         return purchaseAmount - discount;
+    }
+
+    public static double pow(double a, double b) {
+        return Math.pow(a, b);
     }
 }

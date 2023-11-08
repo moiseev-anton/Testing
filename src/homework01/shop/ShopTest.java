@@ -1,4 +1,4 @@
-package Homework01.Shop;
+package homework01.shop;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

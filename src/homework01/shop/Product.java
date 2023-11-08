@@ -1,4 +1,4 @@
-package Homework01.Shop;
+package homework01.shop;
 
 public class Product implements Comparable<Product>  {
     private Integer cost; // Стоимость продукта

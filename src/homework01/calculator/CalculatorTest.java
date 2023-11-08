@@ -1,4 +1,4 @@
-package Homework01.Calculator;
+package homework01.calculator;
 
 import org.junit.jupiter.api.Test;
 
@@ -15,4 +15,5 @@ public class CalculatorTest {
         assertThatThrownBy(() -> Calculator.calculatingDiscount(100, 120)).isInstanceOf(ArithmeticException.class);
         assertThatThrownBy(() -> Calculator.calculatingDiscount(100, -20)).isInstanceOf(ArithmeticException.class);
     }
+
 }
