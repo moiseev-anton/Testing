@@ -8,7 +8,7 @@ import static org.mockito.Mockito.*;
 
 public class TestPaymentForm {
     @Test
-    public void testCard(){
+    public void testPaymentForm(){
         CreditCard mockCreditCard = mock(CreditCard.class);
         when(mockCreditCard.getCardNumber()).thenReturn("45677894");
         when(mockCreditCard.getCardHolder()).thenReturn("Ivan Ivanvo");
