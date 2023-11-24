@@ -2,8 +2,8 @@
 
 ---
 
-### [Ссылка на код программы](https://github.com)
-### [Ссылка на код тестов](https://github.com)
+### [Ссылка на код программы]](https://github.com/moiseev-anton/Testing/tree/main/src/homework06/src)
+### [Ссылка на код тестов](https://github.com/moiseev-anton/Testing/blob/main/src/homework06/test/test.py)
 
 ---
 ## Отчеты pylint:
